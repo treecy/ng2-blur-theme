@@ -13,7 +13,7 @@ import {layoutPaths} from "./theme/theme.constants";
 @Component({
   selector: 'ng2-blur-theme',
   directives: [BaThemeRun],
-  providers: [BaThemeConfigProvider, BaThemeConfig, BaImageLoaderService, BaThemeSpinner],
+  providers: [BaThemeConfigProvider, BaThemeConfig, BaImageLoaderService, BaThemeSpinner, AppState],
   encapsulation: ViewEncapsulation.None,
   styleUrls: ['./ng2-blur-theme.scss'],
   template: `
@@ -26,3 +26,4 @@ import {layoutPaths} from "./theme/theme.constants";
 export class ng2BlurThemeComponent { 
 
 }
+

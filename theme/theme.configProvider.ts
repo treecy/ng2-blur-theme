@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {colorHelper} from './theme.constants';
-import * as _ from 'lodash';
+// import * as _ from 'lodash';
 
 @Injectable()
 export class BaThemeConfigProvider {
@@ -77,11 +77,11 @@ export class BaThemeConfigProvider {
     return this.conf;
   }
 
-  changeTheme (theme) {
-    _.merge(this.get().theme, theme);
-  }
+  // changeTheme (theme) {
+  //   _.merge(this.get().theme, theme);
+  // }
 
-  changeColors (colors) {
-    _.merge(this.get().colors, colors);
-  }
+  // changeColors (colors) {
+  //   _.merge(this.get().colors, colors);
+  // }
 }
